@@ -1,0 +1,7 @@
+Aluno:
+1 - Imprimir "ola mundo" na tela
+echo "Ola Mundo"
+
+2 - Mostrar todo o programa prog.c sem os comentarios
+ cat prog.c | grep -Ev '[:blank]*#|^[:blank]*$' 
+
